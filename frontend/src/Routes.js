@@ -1,7 +1,8 @@
 import React from 'react';
-import { Route, IndexRoute } from 'react-router';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import App from './components/App';
 
+// import Layout 
 import Login from './components/Login';
 import AddPage from './components/add/AddPage';
 import CartPage from './components/cart/CartPage';
